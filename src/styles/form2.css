@@ -1,0 +1,39 @@
+.form-container{
+    width: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.form-container p{
+    width: 100%;
+    text-align: start;
+}
+.btn{
+    width: 70%;
+    padding: 0.8rem 0;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 0.3rem;
+}
+.btn:hover{
+    box-shadow:palevioletred 0px 6px 24px 0px, palevioletred 0px 0px 0px 1px;
+}
+.inp{
+    width: 100%;
+    padding: 0.8rem;
+    outline: none;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
